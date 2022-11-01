@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+button {
+    font-family: Verdana, sans-serif;
+    background-color: #FCF3CF;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    height: 960px;
+    border: 1px solid black;
+    display: grid;
+}
+
+
+.grid {
+    border: 1px solid black;
+}
+
+
+.rangeslider{
+    width: 20%;
+}
+
+.myslider {
+    -webkit-appearance: none;
+    background: #FCF3CF  ;
+    width: 20%;
+    height: 20px;
+    opacity: 2;
+}
+
+.myslider:hover {
+    opacity: 1;
+}
